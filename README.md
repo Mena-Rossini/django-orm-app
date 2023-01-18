@@ -5,65 +5,21 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram :
 
-![ors diagram](./django-orm-app/images/orsdiagram.png)
+![ormdiagram](https://user-images.githubusercontent.com/102855266/213182286-3baae3b4-604c-442c-af12-6a3ba17b33cc.jpg)
+
 
 
 ## DESIGN STEPS :
 
-### STEP 1 
-```
-   Create a django project using "django-admin startproject studentproject"
+### STEP 1 :
+Create a django project and start app
 
-   We will get a new folder
-   
-   Now go into student project folder using "cd studentproject"
-
-   create a new folder inside studentproject using "python3 manage. py startapp stueligibility "
-
-   In settings .py allow host and add the folder "stueligibility" in installed apps.
-
-   Save the file
-
-   And in terminal : "python3 manage. py runserver 0:80"
-```
-
-### STEP 2
-```
-   Open new terminal
-
-   change directory to studentproject "Cd studentproject"
-
-   make migrations using "python3 manage.py makemigrations"
-
-                         "python3 manage.py migrate"
-
-   create a super user "python3 manage.py createsuperuser"
-
-   create username ,email id and password 
-
-   python3 manage.py runserver 0:80
-
-   log in to django administration using username and password
-```
+### STEP 2 : 
+Create Superuser
 
 ### STEP 3
+Runserver and create tables
 
-```
-   Go to stueligibility - models.py
-   
-   code the program and save it
-
-   Go to admin .py 
-
-   code and save it
-
-   Now make migrations 
-   
-   Make sure we are inside studentproject folder and now run the application using "python3 manage.py runserver 0:80"
-
-   Now search the url of the website in chrome,log in and create tables
-
-```
 ## PROGRAM :
 
 ### In Models. py :
@@ -93,12 +49,14 @@ admin.site.register(Student,StudentAdmin)
 
 ## OUTPUT :
 ### terminal :
-![terminal](./django-orm-app/images/terminal1.png)
+![ormcode](https://user-images.githubusercontent.com/102855266/213182194-13df0f8f-77c7-42fa-9852-a074a63b1202.jpg)
+
 
 
 ### webpage:
-![webpage](./django-orm-app/images/webpage.png)
 
+
+![orm webpage](https://user-images.githubusercontent.com/102855266/213182235-81d7fe45-7e9c-4f55-b978-b1c3388cb868.jpg)
 
 
 ## RESULT :
